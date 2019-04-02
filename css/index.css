@@ -1,0 +1,102 @@
+/* Default Overrides */
+main{
+	color: #434343;
+}
+
+/*General Classes*/
+.title{
+	font-size: 3rem;
+	color: #274d8c;
+}
+
+.title, .feature h3{
+	text-transform: uppercase;
+    font-weight: bold;
+}
+
+.divider{
+	width: 100%;
+	border: 1px solid lightgrey;
+}
+
+.largePic{
+	height: 425px;
+	width: 425px;
+}
+
+.largePic, .feature img{
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/*Banner*/
+#indexBanner{
+    background-image: url("../img/action-athlete-barbell-841130.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 475px;
+	padding: 100px;
+	border-bottom: 10px solid #ffb348;
+}
+
+#bannerText{
+	font-size: 3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.1em;
+	color: white;
+}
+
+#bannerText .highlight{
+	font-style: italic;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+
+/* Welcome Section */
+#welcome{
+	flex: 1;
+	margin-right: 75px;
+}
+
+#welcomeImg{
+    flex: 1;
+}
+
+#startTollo{
+	padding: 10px 100px;
+}
+
+/* Features Section  */
+#featuresSection{
+	padding: 50px;
+	color: #c8c8c8;
+	background-color: #2b3137;
+}
+
+#features{
+	align-items: flex-start;
+}
+
+.feature{
+	flex: 1;
+	justify-content: center;
+	text-align: center;
+	font-weight: 500;
+	margin: 0 15px;
+}
+
+.feature h3{
+	width: 100%;
+	font-size: 1.8rem;
+}
+
+.feature img{
+	height: 200px;
+	margin: 15px 0;
+}
+
+.feature img, .featureImgText{
+	width: 200px;
+}
